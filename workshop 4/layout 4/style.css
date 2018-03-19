@@ -1,0 +1,57 @@
+div{
+    outline: 1px solid lime;
+}
+
+.container{
+    width:920px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.header{
+    width: 920px;
+    height: 200px;
+    background-color: aliceblue;
+}
+
+
+.content1{
+    width: 920px;
+    background-color: red;
+    height: 140px;
+}
+
+
+.yellowboxes{
+    width: 430px;
+    height: 100px;
+    background-color: antiquewhite;
+    margin-left: 20px;
+    margin-top: 20px;
+    float:left;
+}
+
+.content2{
+    width: 920px;
+    background-color: pink;
+    height: 440px;
+}
+
+
+.otherboxes{
+    width: 430px;
+    height: 400px;
+    background-color: grey;
+    margin-left: 20px;
+    margin-top: 20px;
+    float:left;
+}
+
+
+.footer{
+    width: 920px;
+    background-color: azure;
+    height: 200px;
+    
+}
