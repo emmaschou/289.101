@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f2f2f2;
+
+}
+
+
+.header{
+    background-color: #2d303a;
+    color: #ffffff;
+    height: 90px;
+    padding: 10px;
+}
+
+.nav{
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    margin-top: 35px;
+    font-size: 1.4rem;
+    float: left;
+}
+
+.links{
+    margin-top: 40px;
+    font-size: 0.75rem;
+    float: right;
+    color: #4b4e61;
+}
+
+.links a:hover{
+    color: #f06c64;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.salmon{
+    color: #f06c64;
+}
+
+.banner{
+    background-color: #f06c64;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.banner img{
+    max-width: 780px;
+    width: 90%;
+}
+
+.services{
+    height: 500px;
+    max-width: 950px;
+    margin: auto;
+}
+
+.textcontainer{
+    height: 120px;
+    margin-top: 20px;
+}
+
+.servicesContainer{
+    height:250px;
+    margin-top: 20px;
+
+}
+
+.serviceImageContainer {
+    width: 25%;
+    float: left
+}
+
+.service{
+    width: 300px;
+    float:left;
+    margin-top:  20px;
+}
+
+.servicestextcontainer{
+    float:left;
+    width: 75%;
+}
+
+
+
+
+@media screen and (max-width: 480px){
+    body{
+        background
+    }
+}
