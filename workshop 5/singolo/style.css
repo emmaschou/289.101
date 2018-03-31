@@ -1,3 +1,9 @@
+/*
+div{
+    outline: solid lime 0.5px;
+}
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body{
@@ -63,6 +69,7 @@ body{
     height: 500px;
     max-width: 950px;
     margin: auto;
+    color: #666d89;
 }
 
 .textcontainer{
@@ -84,13 +91,31 @@ body{
 .service{
     width: 300px;
     float:left;
-    margin-top:  20px;
+    margin-top 20px;
+
 }
 
 .servicestextcontainer{
     float:left;
     width: 75%;
 }
+
+.portfolio{
+    height: 500px;
+    max-width: 950px;
+    margin: auto;
+    background-color: #2d2f3b;
+    color: #666d89;
+}
+
+
+
+
+
+
+
+
+
 
 
 
