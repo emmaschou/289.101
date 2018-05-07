@@ -1,0 +1,81 @@
+.nav{
+    background-color: aliceblue;
+    height: 100px;
+}
+
+.header{
+    background-color: lightgreen;
+    height: 100px;
+}
+
+.gallerybg{
+    background-color: orange;
+    height: 600px;
+}
+
+.contact{
+    background-color: firebrick;
+    height: 150px;
+}
+
+.boxes{
+    background-color: lightgray;
+    height: 170px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 170px;
+}
+
+
+
+
+/* sm device size */
+@media (min-width: 576px){
+    .header{
+        height: 100px;
+    }
+}
+
+
+
+
+
+/* md device size*/
+@media (min-width: 768px){
+    .header{
+        height: 200px;
+    }
+    .gallerybg{
+        height: 500px;
+    }
+    .contact{
+        height: 500px;
+    }
+    .boxes{
+        height: 140px;
+        margin-top: 20px;
+        margin-left: 20px;
+        width: 100px;
+    }
+}
+
+
+
+
+
+/* lg device size */
+@media (min-width: 992px){
+    .nav{
+        height: 50px;
+    }
+    .header{
+        height: 1200px;
+    }
+    .gallerybg{
+        height: 1200px;
+    }
+    .contact{
+        height: 1200px;
+    }
+}
+

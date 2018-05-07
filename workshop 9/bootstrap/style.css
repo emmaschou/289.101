@@ -1,0 +1,48 @@
+.blue{
+    background-color: aliceblue;
+    height: 50px;
+}
+
+.green{
+    background-color: lightgreen;
+    height: 150px;
+}
+.orange{
+    background-color: lightcoral;
+    height: 100px;
+}
+.grey{
+    background-color: lightgray;
+    height: 50px;
+}
+
+/* sm devices */
+@media (min-width: 576px){
+    body{
+        background-color: lightpink;
+    }
+}
+
+/*md*/
+@media (min-width: 768px){
+    body{
+        background-color: lightblue;
+    }
+    .grey{
+        height: 150px;
+    }
+}
+
+/*lg*/
+@media (min-width: 992px){
+    body{
+        background-color: lightgoldenrodyellow;
+    }
+}
+
+/*xl*/
+@media (min-width: 1200px){
+    body{
+        background-color: lightsalmon;
+    }
+}
