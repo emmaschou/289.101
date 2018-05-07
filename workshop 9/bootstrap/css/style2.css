@@ -26,6 +26,12 @@
     width: 170px;
 }
 
+.bigboxes{
+    background-color: lightpink;
+    height: 140px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
 
 
 
@@ -69,13 +75,13 @@
         height: 50px;
     }
     .header{
-        height: 1200px;
+        height: 820px;
     }
     .gallerybg{
-        height: 1200px;
+        height: 820px;
     }
     .contact{
-        height: 1200px;
+        height: 820px;
     }
 }
 
